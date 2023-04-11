@@ -1,0 +1,12 @@
+Job Portal:
+Home Page:
+Navigation bar (Sign In button on the right bar)
+Job Openings posted on the homepge
+
+Sign In/ Sign Up Page options:
+Job Seeker Sign In page
+Employers SIgn In
+
+Sign In Page information
+
+Candidate Profile Page

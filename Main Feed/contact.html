@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1c6b86;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+    <label for="email">E-Mail</label>
+    <input type="text" id="email" name="email" placeholder="E-Mail Address..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Provide a breif info about.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="contact" class="contact-section">
+    <p>We’d love to hear about your project and help you get started. Contact our sales team today to discuss your business requirements.</p>
+    <p>Our Offices are present in Toronto(CA), San Jose(USA) and Ahmedabad(IND). You can always schedule an appointment with our sales and tech team to discuss anything.</p>
+    <p>Please reach out to us at info@abc.com with any of your questions.</p>
+  </div>
+
+</body>
+</html>
